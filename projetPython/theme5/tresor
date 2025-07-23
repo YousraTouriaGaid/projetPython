@@ -1,0 +1,13 @@
+def est_premier(n):
+    if n <= 2 :
+        return True #si l entier est premier 
+    else:
+        return False
+    
+    
+def sphinx_aime(p):
+    return est_premier(p) and est_premier(p + 2)
+
+
+def code_hall(nombre_prefere):    
+    p = nombre_prefere
